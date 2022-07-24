@@ -11,7 +11,7 @@ word = input().title()
 url = "https://mashape-community-urban-dictionary.p.rapidapi.com/define"
 querystring = {"term":word}
 headers = {
-	"X-RapidAPI-Key": "4363fa37femsh1b5f75f95103855p143fb5jsn1a185a1dc488",
+	"X-RapidAPI-Key": "Your_RAPIDAPI_key",
 	"X-RapidAPI-Host": "mashape-community-urban-dictionary.p.rapidapi.com"
 }
 response = requests.request("GET", url, headers=headers, params=querystring)
